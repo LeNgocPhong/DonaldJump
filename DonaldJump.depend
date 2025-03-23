@@ -1,14 +1,14 @@
 # depslib dependency file v1.0
-1742575478 source:c:\users\lenovo\onedrive\documents\c++\donaldjump\main.cpp
+1742658422 source:c:\users\lenovo\onedrive\documents\c++\donaldjump\main.cpp
 	<iostream>
 	<SDL.h>
 	"defs.h"
 	"graphics.h"
 	"logic.h"
 
-1742575659 c:\users\lenovo\onedrive\documents\c++\donaldjump\defs.h
+1742658972 c:\users\lenovo\onedrive\documents\c++\donaldjump\defs.h
 
-1742572101 c:\users\lenovo\onedrive\documents\c++\donaldjump\graphics.h
+1742651367 c:\users\lenovo\onedrive\documents\c++\donaldjump\graphics.h
 	<iostream>
 	<SDL.h>
 	<SDL_image.h>
@@ -16,6 +16,6 @@
 	"defs.h"
 	"logic.h"
 
-1742571941 c:\users\lenovo\onedrive\documents\c++\donaldjump\logic.h
+1742654801 c:\users\lenovo\onedrive\documents\c++\donaldjump\logic.h
 	"defs.h"
 

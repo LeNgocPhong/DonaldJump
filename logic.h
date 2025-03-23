@@ -14,7 +14,7 @@ struct Duck
     {
         Vy += GRAVITY;
 
-        if (y>GROUND - DUCKSIZE[1])
+        if (y>=GROUND-DUCKSIZE[1] && Vy>=0)
         {
             Vy = 0;
         }

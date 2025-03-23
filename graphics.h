@@ -10,6 +10,29 @@
 
 using namespace std;
 
+struct ScrollingBackground
+{
+    SDL_Texture* texture;
+    int scrollingOffset = 0;
+    int width, height;
+
+    void setTexture(SDL_Texture* _texture)
+    {
+        texture = _texture;
+        SDL_QueryTexture(texture, NULL, NULL, &width, &height);
+    }
+
+    void scroll(int distance)
+    {
+        scrollingOffset -= distance;
+        if(scrollingOffset < 0)
+        {
+            scrollingOffset = width;
+        }
+    }
+};
+
+
 struct Sprite
 {
     SDL_Texture* texture;
@@ -101,6 +124,13 @@ struct Graphic
       SDL_Rect renderQuad = {x, y, DUCKSIZE[0], DUCKSIZE[1]};
       SDL_RenderCopy(renderer, sprite.texture, clip, &renderQuad);
   }
+
+  void render(const ScrollingBackground& bgr, const int y)
+  {
+      renderTexture(bgr.texture,bgr.scrollingOffset,y);
+      renderTexture(bgr.texture,bgr.scrollingOffset-bgr.width,y);
+  }
+
   void quit()
   {
       SDL_DestroyWindow(window);
