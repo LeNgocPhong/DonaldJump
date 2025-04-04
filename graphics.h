@@ -125,6 +125,13 @@ struct Graphic
       SDL_RenderCopy(renderer, sprite.texture, clip, &renderQuad);
   }
 
+  void DrawCactus(int x, int y, const Sprite& sprite)
+  {
+      const SDL_Rect* clip = sprite.getCurrentClip();
+      SDL_Rect renderQuad = {x, y, clip->w, clip->h};
+      SDL_RenderCopy(renderer, sprite.texture, clip, &renderQuad);
+  }
+
   void render(const ScrollingBackground& bgr, const int y)
   {
       renderTexture(bgr.texture,bgr.scrollingOffset,y);

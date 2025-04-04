@@ -7,8 +7,7 @@ struct Duck
 {
     int x = FIRST_POS[0];
     int y = FIRST_POS[1];
-    int Vx = 0;
-    int Vy = VELOCITY;
+    int Vy = VELOCITY[1];
 
     void Move()
     {
@@ -20,6 +19,23 @@ struct Duck
         }
 
         y += Vy;
+    }
+};
+
+struct Cactus
+{
+    int x = SCREEN_WIDTH;
+    int y = GROUND - CACTUS_HEIGHT;
+    int w = 0;
+
+    void Move()
+    {
+        x-=VELOCITY[0];
+        if (x<-CACTUS_WIDTH[w])
+        {
+            x = SCREEN_WIDTH;
+            w = rand()%3;
+        }
     }
 };
 
