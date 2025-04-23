@@ -1,21 +1,37 @@
 # depslib dependency file v1.0
-1743772882 source:c:\users\lenovo\onedrive\documents\c++\donaldjump\main.cpp
+1745417411 source:c:\users\lenovo\onedrive\documents\c++\donaldjump\main.cpp
 	<iostream>
+	<string>
 	<SDL.h>
 	"defs.h"
 	"graphics.h"
 	"logic.h"
+	"player.h"
+	"Game.h"
+	"score.h"
 
-1743772993 c:\users\lenovo\onedrive\documents\c++\donaldjump\defs.h
+1745417411 c:\users\lenovo\onedrive\documents\c++\donaldjump\defs.h
 
-1743772394 c:\users\lenovo\onedrive\documents\c++\donaldjump\graphics.h
+1745417511 c:\users\lenovo\onedrive\documents\c++\donaldjump\graphics.h
 	<iostream>
 	<SDL.h>
 	<SDL_image.h>
+	<SDL_mixer.h>
 	<vector>
+	<sdl_ttf.h>
 	"defs.h"
 	"logic.h"
 
-1743772739 c:\users\lenovo\onedrive\documents\c++\donaldjump\logic.h
+1745415190 c:\users\lenovo\onedrive\documents\c++\donaldjump\logic.h
 	"defs.h"
+	"player.h"
+
+1745158801 c:\users\lenovo\onedrive\documents\c++\donaldjump\player.h
+
+1745417411 c:\users\lenovo\onedrive\documents\c++\donaldjump\game.h
+	"score.h"
+
+1745414945 c:\users\lenovo\onedrive\documents\c++\donaldjump\score.h
+	<fstream>
+	<string>
 

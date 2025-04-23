@@ -2,6 +2,7 @@
 #define LOGIC_H_INCLUDED
 
 #include "defs.h"
+#include "player.h"
 
 struct Duck
 {
@@ -30,8 +31,8 @@ struct Cactus
 
     void Move()
     {
-        x-=VELOCITY[0];
-        if (x<-CACTUS_WIDTH[w])
+        x-=(VELOCITY[0]+level);
+        if (x<-(CACTUS_WIDTH[w]+level*10))
         {
             x = SCREEN_WIDTH;
             w = rand()%3;
