@@ -1,8 +1,8 @@
-Họ và tên: Lê Ngọc Phong.
-MSSV: 24021593.
-Chủ đề game: một bản copy của game dinojump trên google chrome.
-Ngưỡng điểm mong muốn: 9 điểm
-Checklist:
+* Họ và tên: Lê Ngọc Phong.
+* MSSV: 24021593.
+* Chủ đề game: một bản copy của game dinojump trên google chrome.
+* Ngưỡng điểm mong muốn: 9 điểm
+* Checklist:
 - Những phần tự làm:
   + Logic game (nhân vật di chuyển, chướng ngại vật, sự kiện chuột, sự kiện bàn phím...).
   + Hàm kiểm tra va chạm.
