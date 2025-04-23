@@ -14,8 +14,8 @@
    + Các hàm xử lý đồ họa (vẽ hình, background,background trôi, Sound, animation, hiển thị text,...)
  - Các nguồn tham khảo:
    + Các tutorial/code mẫu lấy từ: https://docs.google.com/document/d/1FZ3jTqHxtyZznNWiJmmve0zYu_aSliUqLP2OsMcdehQ/edit?tab=t.0#heading=h.mps3zstdeza2
-   + Sound effect lấy từ: tiengdong.com và sounds-resource.com
-   + hình ảnh lấy từ: spriters-resource.com
+   + Sound effect lấy từ: [tiengdong.com](https://tiengdong.com/#google_vignette) và [sounds-resource.com](https://www.sounds-resource.com/)
+   + hình ảnh lấy từ: [spriters-resource.com](https://www.spriters-resource.com/)
  - Dùng các lệnh vẽ hinh.
  - Texture.
  - Background.
